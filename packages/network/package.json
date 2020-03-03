@@ -1,12 +1,12 @@
 {
   "name": "@miapi/network",
   "private": false,
-  "version": "0.1.3",
+  "version": "0.1.4",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "dependencies": {
-    "@miapi/logger": "^0.1.3"
+    "@miapi/logger": "^0.1.4"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
