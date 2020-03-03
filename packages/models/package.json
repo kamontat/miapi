@@ -9,7 +9,7 @@
     "models"
   ],
   "private": false,
-  "version": "0.1.7",
+  "version": "0.1.8",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
@@ -18,7 +18,7 @@
     "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
-    "@miapi/logger": "^0.1.7"
+    "@miapi/logger": "^0.1.8"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
