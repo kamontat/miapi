@@ -1,12 +1,12 @@
 {
   "name": "@miapi/utils",
   "private": false,
-  "version": "0.1.2",
+  "version": "0.1.3",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "dependencies": {
-    "@miapi/logger": "^0.1.2"
+    "@miapi/logger": "^0.1.3"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
@@ -17,5 +17,5 @@
     "access": "public",
     "registry": "https://registry.npmjs.org"
   },
-  "gitHead": "774ea1f249b13e0f7499d375c8934c2d4a42e8c3"
+  "gitHead": "e3a12f54c8aa6728eb744e0b3e25527a759289be"
 }
