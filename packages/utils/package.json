@@ -14,7 +14,8 @@
     "compile:d": "tsc --emitDeclarationOnly"
   },
   "publishConfig": {
-    "access": "public"
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
   },
   "gitHead": "774ea1f249b13e0f7499d375c8934c2d4a42e8c3"
 }

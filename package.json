@@ -33,6 +33,10 @@
     "compile": "lerna exec --parallel yarn compile",
     "start": "lerna exec --stream yarn start --scope @miapi/example"
   },
+  "publishConfig": {
+    "access": "public",
+    "registry": "https://registry.npmjs.org"
+  },
   "engines": {
     "node": ">=12.0.0",
     "npm": ">=6.13.0",
