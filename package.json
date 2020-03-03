@@ -31,7 +31,8 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "compile": "lerna exec --parallel yarn compile",
-    "start": "lerna exec --stream yarn start --scope @miapi/example"
+    "start": "lerna exec --stream yarn start --scope @miapi/example",
+    "publish:all": "lerna publish --conventional-commits"
   },
   "publishConfig": {
     "access": "public",
