@@ -2,6 +2,9 @@
   "name": "miapi",
   "private": true,
   "author": "Kamontat Chantrachirathumrong",
+  "repository": {
+    "url": "https://github.com/kamontat/miapi"
+  },
   "license": "MIT",
   "keywords": [
     "xiaomi",
