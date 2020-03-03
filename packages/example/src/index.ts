@@ -1,7 +1,5 @@
-export default class {
-  constructor() {
-    console.log("hello, models");
-  }
-}
+import core from "@miapi/core";
 
-console.log("hello, world");
+const c = new core();
+
+console.log(c);

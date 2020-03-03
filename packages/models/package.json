@@ -5,7 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
-  "dependencies": {},
+  "dependencies": {
+    "@miapi/logger": "0.1.0"
+  },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
     "compile:c": "babel src --root-mode upward --out-dir lib --extensions .ts",

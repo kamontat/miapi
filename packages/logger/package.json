@@ -1,18 +1,16 @@
 {
-  "name": "@miapi/example",
-  "private": true,
+  "name": "@miapi/logger",
+  "private": false,
   "version": "0.1.0",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "dependencies": {
-    "@miapi/core": "0.1.0",
-    "@miapi/logger": "0.1.0"
+    "debug": "4.1.1"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
     "compile:c": "babel src --root-mode upward --out-dir lib --extensions .ts",
-    "compile:d": "tsc --emitDeclarationOnly",
-    "start": "node lib/index.js"
+    "compile:d": "tsc --emitDeclarationOnly"
   }
 }
