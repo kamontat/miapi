@@ -11,7 +11,8 @@
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
     "compile:c": "babel src --root-mode upward --out-dir lib --extensions .ts",
-    "compile:d": "tsc --emitDeclarationOnly"
+    "compile:d": "tsc --emitDeclarationOnly",
+    "prepublish": "yarn compile"
   },
   "publishConfig": {
     "access": "public",
