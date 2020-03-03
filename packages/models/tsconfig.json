@@ -1,0 +1,11 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src/**/*.ts", "package.json"],
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "lib",
+    "paths": {
+      "@miapi/*": ["node_modules/@miapi/*/src"]
+    }
+  }
+}
