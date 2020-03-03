@@ -1,0 +1,28 @@
+version: 4
+commit:
+  keys:
+    - type: feat
+      value: Introducing new features.
+    - type: impr
+      value: Improving user experience / usability / reliablity.
+    - type: fix
+      value: Fixing a bug.
+    - type: refac
+      value: A code change that neither fixes a bug nor adds a feature.
+    - type: chore
+      value: Other changes that don't modify src or test files.
+  scopes:
+    - type: core
+      value: Core libraries
+    - type: models
+      value: Libraries models
+    - type: utils
+      value: Utilities module
+    - type: logger
+      value: Logger module
+    - type: network
+      value: Network module
+    - type: example
+      value: Example project
+    - type: config
+      value: Configuration and package.json
