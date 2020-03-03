@@ -12,5 +12,9 @@
     "compile": "yarn compile:c && yarn compile:d",
     "compile:c": "babel src --root-mode upward --out-dir lib --extensions .ts",
     "compile:d": "tsc --emitDeclarationOnly"
-  }
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "gitHead": "774ea1f249b13e0f7499d375c8934c2d4a42e8c3"
 }
