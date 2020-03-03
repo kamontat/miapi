@@ -6,8 +6,9 @@
   "types": "lib/src",
   "license": "MIT",
   "dependencies": {
-    "@miapi/core": "^0.1.5",
-    "@miapi/logger": "0.1.5"
+    "@miapi/core": "0.1.5",
+    "@miapi/logger": "0.1.5",
+    "@miapi/utils": "0.1.5"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
