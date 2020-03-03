@@ -1,12 +1,12 @@
 {
   "name": "@miapi/core",
   "private": false,
-  "version": "0.1.0",
+  "version": "0.1.1",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "dependencies": {
-    "@miapi/logger": "0.1.0"
+    "@miapi/logger": "^0.1.1"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
