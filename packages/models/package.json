@@ -5,6 +5,9 @@
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/kamontat/miapi/packages/models"
+  },
   "dependencies": {
     "@miapi/logger": "^0.1.6"
   },

@@ -5,8 +5,11 @@
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
+  "repository": {
+    "url": "https://github.com/kamontat/miapi/packages/core"
+  },
   "dependencies": {
-    "@miapi/logger": "^0.1.6"
+    "@miapi/logger": "0.1.6"
   },
   "scripts": {
     "compile": "yarn compile:c && yarn compile:d",
