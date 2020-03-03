@@ -1,12 +1,21 @@
 {
   "name": "@miapi/utils",
+  "description": "custom utils for several projects",
+  "keywords": [
+    "lerna",
+    "typescript",
+    "miapi",
+    "utils",
+    "json"
+  ],
   "private": false,
   "version": "0.1.7",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/kamontat/miapi/packages/utils"
+    "type": "git",
+    "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
     "@miapi/logger": "^0.1.7"

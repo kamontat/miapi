@@ -1,12 +1,21 @@
 {
   "name": "@miapi/models",
+  "description": "miapi models is might be deprecate in the future",
+  "keywords": [
+    "deprecate",
+    "lerna",
+    "typescript",
+    "miapi",
+    "models"
+  ],
   "private": false,
   "version": "0.1.7",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/kamontat/miapi/packages/models"
+    "type": "git",
+    "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
     "@miapi/logger": "^0.1.7"

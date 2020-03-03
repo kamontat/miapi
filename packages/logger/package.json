@@ -1,12 +1,22 @@
 {
   "name": "@miapi/logger",
+  "description": "utils logger for miapi",
+  "keywords": [
+    "example",
+    "lerna",
+    "typescript",
+    "miapi",
+    "logger",
+    "utils"
+  ],
   "private": false,
   "version": "0.1.7",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/kamontat/miapi/packages/logger"
+    "type": "git",
+    "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
     "debug": "4.1.1"

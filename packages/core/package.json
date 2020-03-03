@@ -1,12 +1,27 @@
 {
   "name": "@miapi/core",
+  "description": "core project that aggregate all modules together for enduser and easier to uses",
+  "keywords": [
+    "xiaomi",
+    "mi",
+    "miio",
+    "aqara",
+    "yeelight",
+    "mijia",
+    "core",
+    "apis",
+    "lerna",
+    "typescript",
+    "miapi"
+  ],
   "private": false,
   "version": "0.1.7",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/kamontat/miapi/packages/core"
+    "type": "git",
+    "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
     "@miapi/logger": "^0.1.7"

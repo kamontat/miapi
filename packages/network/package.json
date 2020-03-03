@@ -1,12 +1,27 @@
 {
   "name": "@miapi/network",
+  "description": "this is how xiaomi smarthome communicate between multiples devices in local network",
+  "keywords": [
+    "lerna",
+    "typescript",
+    "miapi",
+    "network",
+    "xiaomi",
+    "protocal",
+    "miio",
+    "mi-protocal",
+    "mihome",
+    "udp",
+    "mihobi"
+  ],
   "private": false,
   "version": "0.1.7",
   "main": "lib/index.js",
   "types": "lib/src",
   "license": "MIT",
   "repository": {
-    "url": "https://github.com/kamontat/miapi/packages/network"
+    "type": "git",
+    "url": "https://github.com/kamontat/miapi.git"
   },
   "dependencies": {
     "@miapi/logger": "^0.1.7"
